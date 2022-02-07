@@ -1,0 +1,29 @@
+body{
+    background-image: url(../imgs/img-chibi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+form{
+    align-Items: center;
+    background-color: rgba(0, 255, 255, 0);
+    width: 500px;
+    margin: auto;   
+    padding: 10px;
+    box-shadow:  3px 3px 5px aquamarine;
+    font-size: 25px;
+    font-family: Arial;
+    color: black;
+    margin-top: 2%;
+    border-radius: 12%;
+
+}
+h1{
+    font-size: 50px ;
+    text-align: center;
+    color: black;
+    font-family: Arial;
+}
+input{
+    border-radius: 25%;
+    background-color: aquamarine;
+}
