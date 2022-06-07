@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title> pet-shop </title>
+</head>
+<body>
+    
+    <h1> pet-shop </h1>
+
+    <form  method="post"  action="Process.php">
+
+        <a> name: </a>          <br>                                  <!-- nome-->
+        <input type="text" name="Name"><br><br>
+
+        <a> species: </a>               <br>                           <!-- species -->  
+        <select name="Species" id="Species">
+            <option value="Dog">             dog            </option>    <!-- cachorro       -->
+            <option value="Cat">             cat            </option>    <!-- gato           -->
+            <option value="Parrot">          parrot         </option>    <!-- papagaio       -->
+            <option value="Hamster">         hamster        </option>    <!-- hamister       -->
+            <option value="Ferrat">          ferret         </option>    <!-- furão          -->
+            <option value="Snake">           snake          </option>    <!-- cobra          -->
+            <option value="Chamaleon">       chameleon      </option>    <!-- camaleão       -->
+            <option value="Bunny">           Bunny          </option>    <!-- coelho         -->
+            <option value="Horse">           horse          </option>    <!-- cavalo         -->
+            <option value="Bearded drangon"> bearded dragon </option>    <!-- dragão barbudo -->
+        </select><br><br>
+ 
+        <a> Breed: </a>   <br>                                        <!-- raça -->
+        <input type="text" name="Breed"><br><br>
+
+        <a> Size: </a>           <br>                                 <!-- porte  -->
+        <select id="Size" name="Size">
+            <option  value="Litle">  Litle  </option>
+            <option  value="Medium"> Medium </option>
+            <option  value="Big">    Big    </option>
+        </select><br><br>
+
+        <a> Birthdate: </a>                       <br>                 <!-- data de nascimento -->
+        <input type="Date" name="Birthdate" ><br><br>
+
+        <a> Genre: </a>             <br>                              <!-- genero  -->
+        <select id='Genre' name="Genre">
+              <option value="Masculine"> Masculine </option>
+              <option value="Feminine">  Feminine  </option>
+        </select>
+        <br><br>
+
+        <a> Weight: </a>               <br>                           <!-- peso-->
+        <input type="number" name="Weight"> <br>
+
+        <a> Name Owner: </a>              <br>                        <!-- nome-dono -->
+        <input type="text" name="NameOwner" ><br><br>
+
+        <a> contact: </a>                <br>                         <!-- contato -->
+        <input type="number" name="Contact" ><br>
+
+        <input type=submit value="Enviar"/>
+
+
+         
+    </form>
